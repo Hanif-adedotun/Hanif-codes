@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   <title> Contact Us </title>
+    <meta charset="utf-8"/>
+    <link href="style1.css" rel="stylesheet" type="text/css"/>
+	 <script type="text/javascript" src="java.js"></script>
+    </head>
+    <body>
+      <header>
+      <div id ="sitebranding">
+      <h1>OYINBOLA BOUTIQUE</h1>
+       </div>
+       <div id="tagline">
+         <p id="tag">OyinBola botique lets shop!</p>
+         </div>
+         </header>
+		 	 <!-- SiteSearch Google -->
+ <form method="get" action="http://www.google.com/search">
+ <div id="search">
+ <label for="q">Search:</label>
+ <input id="q" name="q" size="20" maxlength="255" value="" placeholder="Search" type="text" />
+ <input name="domains" value="http://www.OyinbolaBoutique.com/" type="hidden" />
+ <input name="sitesearch" value=" http://www.OyinbolaBoutique.com/" checked="checked" id="mysite" type="Checkbox" />
+ <label for="mysite">Just this site</label>
+ <input name="sitesearch" value="" id="www" type="Checkbox" />
+ <label for="www">WWW</label>
+ <input name="btnG" value="Go" type="submit" />
+ </div>
+ </form>
+ <!-- SiteSearch Google -->
+         <div id="links">
+		<div id="nav">
+         <ul>  
+         <li><a href="index.html">Home</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="event.html">Shop events</a></li>		 
+		 <li><a href="contact.html">Contact</a></li>
+         <li><a href="gallery.html">Image gallery</a></li>
+         </ul>
+       </div>
+       </div>
+         <div id="bodycontent">
+    <h2>Contact Us</h2>
+ <p>To order a cloth, please fill the form below.</p>
+<form action=" " method="post" id="box" class="contact">
+<fieldset>
+<legend>Order clothing</legend>
+<p>
+<label for="Name of cloth" placeholder="Name of cloth" class="fixedwidth">Name of cloth</label>
+<input type="text" onkeyup="validate()" placeholder="Clothing Item" name="cloth" id="cloth"/>
+<p><div id="errcloth"></div></p>
+<p>
+<label for="Name of person" class="fixedwidth">Name of person</label>
+<input type="text" onkeyup="validate()" placeholder="Name of person" name="name of person" id="name"/>
+<p><div id="errname"></div></p>
+</p>
+<p>
+<label for="Address" class="fixedwidth">Address</label>
+<input type="text" onkeyup="validate()" placeholder="Enter addres" name="Address" id="address"/>
+<p><div id="erraddress"></div></p>
+</p>
+<p>
+<label for="E-mail Address" class="fixedwidth">E-mail Address</label>
+<input type="text" onkeyup="validate()" placeholder="E-mail Address" name="E-mail Address" id="E-mail"/>
+<p><div id="erremail"></div></p>
+</p>
+<p>
+<label for="Quantity" class="fixedwidth">Quantity</label>
+<input type="Number" onkeyup="validate()" placeholder="Number of items" name="Quantity" id="Quantity"/>
+<p><div id="errquantity"></div></p>
+</p>
+<p>
+<label for="Phone number" class="fixedwidth">Phone number</label>
+<input type="Number" onkeyup="validate()" placeholder="Enter phone number" name="Phone number" id="number"/>
+<p><div id="errnumber"></div></p>
+</p> 
+<p>
+<input type="Checkbox" name="terms" id="terms" checked="checked"/>
+<label for="terms">I have read the <a id="terms" href="terms and condition.html">terms and condition.</a></label>
+</p>
+<p> You can pay into;</p>
+<h5> Fidelity bank..........0006020357</h5>
+<h5> Garantee Trust Bank..........0004056737</h5>
+<h5> First bank..........0007080675</h5>
+<div class="buttonarea">
+ <input type="submit" onclick="validate();finalValidate();" value="Send Us the Info"/>
+ <p><div id="errFinal"></div></p>
+</div>
+</fieldset>
+</form>   
+<p>To find out more, visit our shop at shop R689 Amac market, or contact our secretary on 09096281736 or kindly <a href="malito:hanif.adedotun@gmail.com">drop us a line by email.</a></p>
+<div id="copyright" ><center><address>copyright &copy; Hanif Adedotun 2018</address></center></div>
+</div><!-- end of bodycontent div -->
+ </body>
+</html> 
+    
+    

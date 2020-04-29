@@ -1,0 +1,31 @@
+<!Doctype Html>
+<html lang="en">
+<head>
+<title>User validation</title>
+ <script  type="text/javascript">
+ // typeof return the type of values given
+ // (/^.+@.+\..+$/)is for email validation
+ // .height/ .width/ .src (object properties of image)
+ function check_form(){
+objForm = document.getElementById("jscourseform");
+strValue = objForm.Name.value;
+strvale = objForm.Pass.value;
+if (strValue!="Hanif" || strvale!="hanif3370"){
+alert("Access to this page is denied");
+return false;
+ }
+ }
+ </script>
+ <link href="style1.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<h6 id="head">This is a private access to Oyinbola boutique</h6>
+<form method="get" action="index.html" onsubmit="return check_form();" id="jscourseform">
+<p>Name:<input name="Name" type="text"/></p>
+<p>Password:<input name="Pass" type="password"/></p>
+<p><input type="submit"/></p>
+</form>
+<div id="copyright" ><center><address>copyright &copy; Hanif Adedotun 2018</address></center></div>
+</body>
+</html>
+<!--continue from page 100-->
