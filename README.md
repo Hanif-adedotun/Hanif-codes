@@ -1,2 +1,2 @@
 # Hanif-codes
-Just my past time code using some pprogramming languages 
+Just my past time code using some programming languages 
